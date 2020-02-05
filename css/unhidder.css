@@ -5,7 +5,7 @@ html, body {
   font-size: 70px;
   text-transform: uppercase;
   font-weight: 900;
-  letter-spacing: 10px;
+  letter-spacing: -24px;
   background-color: white;
   color: black;
   width: 100%;
@@ -23,6 +23,21 @@ html .content, body .content {
 }
 
 html .content span, body .content span {
-    width: 100px;
+  width: 100px;
   display: inline-block;
+}
+
+@media (max-width: 1000px) {
+  html .content, body .content {
+
+    font-size: 45px;
+    max-width: 320px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  html .content span, body .content span {
+    width: 200px;
+    display: inline-block;
+}
 }
