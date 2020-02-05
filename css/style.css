@@ -85,7 +85,8 @@ body {
 
 .money {
    height: 100vh;
-   position: relative }    
+   position: relative 
+}    
 
 .money h1 {
     text-align: center;
@@ -96,7 +97,7 @@ body {
     position: absolute;               
     top: 50%;                         
     transform: translate(0, -50%);
-    cursor: none;   
+    cursor: default;   
 }
 
 @media (max-width: 1199px) {
