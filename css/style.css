@@ -100,6 +100,37 @@ body {
     cursor: default;   
 }
 
+.footer {
+    padding: 25px 0 25px;
+}
+
+.footer_flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer_flex p {
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.pravicy {
+    font-size: 18px;
+    color: black;
+    text-decoration: underline;
+    line-height: 1.2;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.pravicy:hover {
+    border-color: rgba(0, 119, 255, 0);
+}
+
+
+
 @media (max-width: 1199px) {
     .container {
         max-width: 1000px;
