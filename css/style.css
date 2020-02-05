@@ -82,6 +82,10 @@ body {
     position: relative;
 }
 
+header {
+    height: 100vh;
+}
+
 .money {
    height: 100vh;
    position: relative 
